@@ -27,6 +27,7 @@ li {
 }
 
 .flex-1 {
+    display: flex;
     flex: 1;
 }
 
@@ -34,15 +35,24 @@ li {
     display: flex;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 
 }
 
 .text--purple{
     color: #6030b1;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
@@ -60,8 +70,6 @@ nav {
 
 .nav__link--list {
     display: flex;
-    justify-content: space-between;
-    width: 40%;
 }
 
 .nav__link--anchor {
@@ -148,6 +156,16 @@ padding-bottom: 8px;
     padding: 0 16px;
 }
 
+.about-me__info.row {
+    display: flex;
+}
+
 .about-me__img--container {
     flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }
